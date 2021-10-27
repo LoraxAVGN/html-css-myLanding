@@ -1,0 +1,74 @@
+/*Header*/
+
+header{
+    /* background-color: #111111; */
+    background: url(../images/gray_picture.jpg) center;
+}
+
+.header_container{
+    max-width: 1075px;
+    margin: auto;
+}
+.fix_menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 40px 0;
+}
+
+.menu{
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.menu a{
+    color: white;
+    letter-spacing: -0.03em;
+    font-size: 18px;
+    transition: .3s;
+    margin-left: 5px;
+}
+
+.menu a:hover{
+    color: goldenrod;
+}
+
+.fix_menu h2{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.27em;
+    margin-left: 20px;
+}
+
+.fix_menu span{
+    color: goldenrod;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    background: url(../images/icon.png);
+    background-size: 100% 100%;
+    margin: 50px auto 0;
+}
+
+header h1{
+    letter-spacing: 0.035em;
+    font-size: 60px;
+    margin: 20px auto 0;
+    text-align: center;
+    color: white;
+}
+
+.header_text{
+    max-width: 840px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 140px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.025em;
+    color: rgb(155, 155, 155);
+}

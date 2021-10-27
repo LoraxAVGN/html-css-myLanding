@@ -1,0 +1,60 @@
+/*article_2*/
+
+.article_2{
+    background-color: #eaeaea;
+}
+
+.art2_container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.img2{
+    min-height: 650px;
+    width: 100%;
+    background: url(../images/long_braslet.jpg);
+    background-size: 100% 100%;
+    display: block;
+    position: relative;
+}
+
+.img2_left{
+    width: 50%;
+    height: 650px;
+    background: black;
+    opacity: .5;
+}
+
+.img2_text h2{
+    font-weight: bold;
+    font-size: 78px;
+    padding-top: 150px;
+}
+
+.img2_text h3{
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 39px;
+    padding-top: 30px;
+}
+
+.img2_text p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.img2_text h4{
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    color: goldenrod;
+    padding-top: 20px;
+}
+
+.img2_text{
+    position: absolute;
+    z-index: 1;
+    max-width: 385px;
+    left: 5%;
+    color: white;
+}

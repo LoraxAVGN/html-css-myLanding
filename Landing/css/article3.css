@@ -1,0 +1,148 @@
+/*article_3*/
+
+.art3_container{
+    max-width: 1250px;
+    margin: auto;
+    position: relative;
+}
+
+.article_3{
+    background: rgb(235, 235, 235);
+}
+
+.article_3 h2{
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.art3_text{
+    font-size: 15px;
+    color: gray;
+    width: 370px;
+    margin: auto;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.big_blok{
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 56px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.blok img{
+    width: 280px;
+    height: 325px;
+    border-radius: 10px 10px 0 0;
+}
+
+.blok_goods{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(192, 192, 192);
+    padding: 15px 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.blok{
+    transition: .3s;
+}
+
+.blok:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+.price_of_good{
+    color: goldenrod;
+}
+
+.circle_block{
+    width: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-bottom: 60px;
+    transition: .1s;
+}
+
+.circle:hover{
+    background: goldenrod;
+}
+
+.circle_block a:focus{
+    outline: none; 
+}
+
+.active_circle{
+    background: goldenrod;
+}
+
+@media (max-width: 1170px){
+    .blok1{
+        display: none;
+    }
+
+    .big_blok{
+        max-width: 880px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 930px){
+    .blok4{
+        display: none;
+    }
+
+    .big_blok{
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+.btn_right_left{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.btn_right_left>*{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    opacity: .2;
+    z-index: 10;
+    margin-top: 150px;
+    transition: .3s;
+}
+
+.btn_right_left>div:hover{
+    cursor: pointer;
+    opacity: .6;
+}
+
+.btn_right{
+    margin-right: 25px;
+}
+
+.btn_left{
+    margin-left: 5px;
+}
